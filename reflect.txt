@@ -1,0 +1,40 @@
+/*****************************************************************************
+						Workshop 3 - Part 2
+Full Name  : Yusuff Oyediran
+Student ID#: 142813203
+Email      : yooyediran@myseneca.ca
+Section    : ZEE
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************/
+
+Part 1 - 
+
+*** I did run into some trouble with my part one but i was able to fix the problem after i got a fresh eye to look at the code together. And together we were able to point out the issue. I did not copy but i was able to fix a small minor error by just getting a fresh eye. Also i did run into link issues but i solved that by creating a new project and new files on my Desktop and just copy and past the same code from the old project and it was successful**
+
+Part 2 - 
+
+** I didnt run into any issues and was able to understand what i was able to do by googling some concept that i didnt under properly and also referred back on the course note. **
+
+But am going to talk about the Fuction and what they do. 
+
+  The three functions belong to a train class and they play a role in managing and also updating the information about the train.
+
+The first function 
+bool Train::load(int& notBoarded) - is responsible for loading passengers onto a train. and it relies on the user inpit to function. 
+it promotes the user for the number of passengers and update the passenger counts
+it checks if the total number of passengegers after boarding is within valid limits
+
+
+  The second function 
+bool Train::updateDepartureTime() - allows the user to update the depature time of the train. It prompts the user to input a new departure time.
+It validates the input using the validTime function.
+If the input is valid, it updates the departure time of the train.
+If the input is not valid, it sets the departure time to -1 as an indicator.
+The function returns a boolean indicating whether the departure time update was successful.
+
+  The last function 
+bool Train::transfer(const Train& from) - Transfering passengers from one train to another while also combining the names of both trains.
+
